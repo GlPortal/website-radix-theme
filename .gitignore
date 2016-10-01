@@ -13,6 +13,9 @@ pids
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
+# Sass cache
+.sass-cache/
+
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
