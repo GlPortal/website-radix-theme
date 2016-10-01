@@ -17,7 +17,7 @@ npm install
 
 Start the compilation process by tying
 ```
-gulp
+grunt
 ```
 
 Now every time you change the scss file
