@@ -4,6 +4,12 @@ This is a radix theme for the static website generator hugo.
 ## Develop Stylesheet
 You need to install node and ruby on your system.
 
+Install sass and compass
+```
+gem install sass;
+gem install compass;
+```
+
 Inside the themes root directory type
 ```
 npm install
