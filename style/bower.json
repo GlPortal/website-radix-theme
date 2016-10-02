@@ -1,0 +1,21 @@
+{
+  "name": "style",
+  "homepage": "https://github.com/GlPortal/website-radix-theme",
+  "authors": [
+    "Henry Hirsch <henry@w3-net.de>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "jquery": "^3.1.1",
+      "bootstrap": "^3.3.7"
+  }
+}
