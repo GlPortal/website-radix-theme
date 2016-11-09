@@ -281,4 +281,10 @@ h1.top-menu {
 .navigation:hover {
   background-color: rgba(0, 0, 0, 0.1); }
 
+.footerSignature {
+  font-size: medium;
+  font-style: italic;
+  text-align: right;
+  margin: 10px; }
+
 /*# sourceMappingURL=style.css.map */
