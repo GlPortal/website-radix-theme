@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+    {{ .Hugo.Generator }}
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+    <title>{{.Title}}</title>
+    {{ partial "styles.html" . }}
+  </head>
+
+  <body>
+  <!-- container section start -->
+  <section id="container" class="">
+    <!--header start-->
+    <header class="header black-bg">
+      <div class="toggle-nav">
+        <i class="fa fa-bars"></i>
+        <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>
+      </div>
+      {{ partial "top-menu.html" . }}
+    </header>
+    <!--header end-->
+
+    {{ partial "menu.html" . }}
+
+    <!--main content start-->
+    <section id="main-content">
+      <section class="wrapper">
+        <div class="row">
+          <div class="col-md-1">
+            {{ if .IsPage }}
+            {{ with .GetParam "prev" }}
+            <a class="navigation prev" href="{{.}}">
+              <i class="fa fa-angle-left"></i>
+            </a>
+            {{ end }}
+            {{ end }}
+          </div>
+          <div class="col-md-10">
+            <div style="padding: 10px;" class="">
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-lg-12 cse">
+                    <h1 class="">{{.Title}}</h1>
+                  </div>
+                </div>

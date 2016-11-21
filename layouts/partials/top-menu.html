@@ -1,0 +1,17 @@
+<!--logo start-->
+<a href="/" class="logo"><img src="/image/logo-small.png" style="height: 40px; vertical-align: bottom;"> <span style="font-size: small; text-transform: none;">v{{ with .Site.Params.gameversion }}{{ . }}{{ end }}</span></a>
+<!--logo end-->
+<div class="top-nav notification-row">
+    <!-- notification dropdown end-->
+    <div class="hidden-xs pull-right">
+        {{ partial "duck-search.html" . }}
+    </div>
+
+    <div class="hidden-xs hidden-sm nav-github pull-right">
+        {{ partial "github.html" . }}
+    </div>
+</div>
+
+<div class="nav title-row visible-md-block visible-lg-block" id="top_menu">
+
+</div>
