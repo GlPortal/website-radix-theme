@@ -172,8 +172,7 @@ ul.sidebar-menu li.active a i {
   text-align: center; }
 
 .black-bg {
-  background: rgba(20, 20, 20, 0.9);
-  border-bottom: 1px solid #f1f2f7; }
+  background: rgba(20, 20, 20, 0.9); }
 
 .wrapper {
   display: inline-block;
